@@ -92,7 +92,7 @@ document.querySelectorAll(".option").forEach((button) => {
       stepText.textContent = `Step ${currentStep + 1} of ${steps.length}`;
       
       if (currentStep === steps.length - 1) {
-        summary.innerHTML = `You’re enquiring about: <strong>${selectedService}</strong>`;
+        summary.innerHTML = `You're enquiring about: <strong>${selectedService}</strong>`;
       }
     }
   });
